@@ -1,3 +1,5 @@
+package com.sbpstu.semwai.javafirst;
+
 public class BinaryThree {
     private class Node {
         int value;
@@ -66,12 +68,12 @@ public class BinaryThree {
 
     }
 
-    BinaryThree(int value) {
+    public BinaryThree(int value) {
         root = new Node(value);
 
     }
 
-    void append(int value) {
+    public void append(int value) {
         root.append(value);
     }
 
@@ -80,14 +82,14 @@ public class BinaryThree {
      *
      * @return boolean
      */
-    boolean find(int value) {
+    public boolean find(int value) {
         return root.find(value);
     }
 
     /**
      *
      */
-    void remove(int value) {
+    public void remove(int value) {
         root = root.remove(value);
     }
 }
