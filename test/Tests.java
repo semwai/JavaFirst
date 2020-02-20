@@ -31,6 +31,22 @@ class Tests {
         assertFalse(b.find(8));
     }
     @Test
+    void DeleteTest(){
+        BinaryThree b = new BinaryThree(5);
+        b.append(3);
+        b.append(2);
+        b.append(4);
+        b.append(8);
+        b.append(7);
+        b.append(6);
+        b.append(10);
+        b.append(9);
+        b.append(11);
+        System.out.println(b.toJSON());
+        b.remove(8);
+        System.out.println(b.toJSON());
+    }
+    @Test
     void EqualsTest1(){
         BinaryThree a = new BinaryThree(4);
         BinaryThree a2 = a;
@@ -70,5 +86,3 @@ class Tests {
 
     }
 }
-
-

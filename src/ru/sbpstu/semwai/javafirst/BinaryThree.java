@@ -1,5 +1,6 @@
 package ru.sbpstu.semwai.javafirst;
 
+
 public class BinaryThree {
     private int value;
     private BinaryThree left;
@@ -25,8 +26,7 @@ public class BinaryThree {
             } else {
                 right.append(value);
             }
-        }
-        if (value < this.value) {
+        } else if (value < this.value) {
             if (left == null) {
                 left = new BinaryThree(value);
             } else {
@@ -67,8 +67,8 @@ public class BinaryThree {
                 return right;
             if (right == null)
                 return left;
-            this.value = right.value;
-            right = right.remove(this.value);
+            this.value = left.value;
+            left = left.remove(this.value);
         }
         return this;
     }
@@ -82,11 +82,11 @@ public class BinaryThree {
             if (three.value != this.value) {
                 return false;
             }
-            boolean out = true;
+            boolean out;
             if (this.left == null) {
-                out &= three.left == null;
+                out = three.left == null;
             } else
-                out &= left.equals(three.left);
+                out = left.equals(three.left);
             if (this.right == null) {
                 out &= three.right == null;
             } else
