@@ -13,8 +13,6 @@ public class BinaryThree {
 
     /**
      * Добавляет элемент в дерево
-     *
-     * @param value
      */
     public void append(int value) {
         //если новое число больше, чем текущее, то оно пойдет по пути правой ветки
@@ -22,7 +20,8 @@ public class BinaryThree {
             //если правая ветка еще не создана, то мы дошли до листочка и можем вставить значение
             if (right == null) {
                 right = new BinaryThree(value);
-                //иначе, у нашего элемента уже есть правая ветка. Нужно попытатся повторить тоже самое для детей правой ветки.
+                //иначе, у нашего элемента уже есть правая ветка.
+                //Нужно попытатся повторить тоже самое для детей правой ветки.
             } else {
                 right.append(value);
             }
@@ -37,8 +36,6 @@ public class BinaryThree {
 
     /**
      * Определяет наличие значения value в дереве
-     *
-     * @return boolean
      */
     public boolean find(int value) {
         if (value == this.value)
@@ -52,8 +49,6 @@ public class BinaryThree {
 
     /**
      * Удаляет элемент и возвращает новое дерево
-     *
-     * @return BinaryThree
      */
     public BinaryThree remove(int value) {
         if (value > this.value && this.right != null)
@@ -67,10 +62,35 @@ public class BinaryThree {
                 return right;
             if (right == null)
                 return left;
-            this.value = left.value;
-            left = left.remove(this.value);
+
+            int minimum = right.min();
+
+
+            this.value = minimum;
+            right = right.remove(minimum);
         }
         return this;
+    }
+
+    /**
+     * Поиск мимимального элемента
+     */
+    public int min() {
+        if (left == null)
+            return value;
+        return left.min();
+    }
+
+    @Override
+    public int hashCode() {
+        //числа 7, 3 и 5 выбраны из-за их простоты.
+        //конечная константа и исключающее или должны в достаточной степени "перемешать" биты.
+        int sum = value * 7;
+        if (left != null)
+            sum += left.hashCode() * 3;
+        if (right != null)
+            sum += right.hashCode() * 5;
+        return sum ^ 0xDEADBEEF;
     }
 
     @Override
@@ -105,13 +125,13 @@ public class BinaryThree {
 
     /***
      * Возвращает строку, представляющую класс в виде json объекта.
-     * @return json as string
      */
     public String toJSON() {
         return "{" + toString() + "}";
     }
 
     /***
+     * Соседи элемента
      *
      * @return [parent, left, right]
      */
@@ -125,6 +145,7 @@ public class BinaryThree {
         throw new Exception("Node hasn't exist");
     }
 
+    //вспомогательное переопределение функции.
     private BinaryThree[] friends(int value, BinaryThree parent) throws Exception {
         if (value == this.value)
             return new BinaryThree[]{parent, left, right};

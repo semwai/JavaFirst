@@ -32,18 +32,17 @@ class Tests {
     }
     @Test
     void DeleteTest(){
-        BinaryThree b = new BinaryThree(5);
+        BinaryThree b = new BinaryThree(8);
         b.append(3);
-        b.append(2);
-        b.append(4);
-        b.append(8);
-        b.append(7);
-        b.append(6);
         b.append(10);
-        b.append(9);
-        b.append(11);
+        b.append(1);
+        b.append(6);
+        b.append(4);
+        b.append(7);
+        b.append(14);
+        b.append(13);
         System.out.println(b.toJSON());
-        b.remove(8);
+        b.remove(3);
         System.out.println(b.toJSON());
     }
     @Test
