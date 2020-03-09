@@ -1,6 +1,8 @@
 package ru.sbpstu.semwai.javafirst;
 
 
+import java.util.Objects;
+
 public class BinaryThree {
     private int value;
     private BinaryThree left;
@@ -83,12 +85,7 @@ public class BinaryThree {
 
     @Override
     public int hashCode() {
-        int sum = value * 31;
-        if (left != null)
-            sum += left.hashCode();
-        if (right != null)
-            sum += right.hashCode();
-        return sum;
+        return Objects.hash(value, left, right);
     }
 
     @Override
