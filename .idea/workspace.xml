@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f3445c1-0fd5-4a84-8cc4-fb6467342f1d" name="Default Changelist" comment="" />
+    <list default="true" id="3f3445c1-0fd5-4a84-8cc4-fb6467342f1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sbpstu/semwai/javafirst/BinaryThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sbpstu/semwai/javafirst/BinaryThree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,29 +115,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1582626674735" />
-    <state x="761" y="355" key="FileChooserDialogImpl" timestamp="1583692633502">
+    <state x="761" y="355" key="FileChooserDialogImpl" timestamp="1583757242508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="355" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583692633502" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1583757059071">
+    <state x="761" y="355" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583757242508" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1583758655562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583757059071" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583758655562" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556905" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1583757059070">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1583758655562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583757059070" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583758655562" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556904" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1583757059070">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1583758655562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583757059070" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583758655562" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556904" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1583757059070">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1583758655562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583757059070" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583758655562" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556905" />
     <state x="461" y="175" key="SettingsEditor" timestamp="1583692687686">
       <screen x="0" y="0" width="1920" height="1040" />

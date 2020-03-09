@@ -97,22 +97,24 @@ public class BinaryThree {
             return true;
         if (!(o instanceof BinaryThree))
             return false;
-        else {
-            BinaryThree three = (BinaryThree) o;
-            if (three.value != this.value) {
-                return false;
-            }
-            boolean out;
-            if (this.left == null) {
-                out = three.left == null;
-            } else
-                out = left.equals(three.left);
-            if (this.right == null) {
-                out &= three.right == null;
-            } else
-                out &= right.equals(three.right);
-            return out;
+
+        BinaryThree three = (BinaryThree) o;
+        if (three.value != this.value) {
+            return false;
         }
+        boolean out;
+        if (this.left == null) {
+            out = three.left == null;
+        } else
+            out = left.equals(three.left);
+
+        if (this.right == null) {
+            out &= three.right == null;
+        } else
+            out &= right.equals(three.right);
+        
+        return out;
+
     }
 
     @Override
