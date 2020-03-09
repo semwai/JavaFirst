@@ -85,19 +85,24 @@ public class BinaryThree {
     public int hashCode() {
         //числа 7, 3 и 5 выбраны из-за их простоты.
         //конечная константа и исключающее или должны в достаточной степени "перемешать" биты.
-        int sum = value * 7;
+        int sum = value * 31;
         if (left != null)
-            sum += left.hashCode() * 3;
+            sum += left.hashCode();
         if (right != null)
-            sum += right.hashCode() * 5;
-        return sum ^ 0xDEADBEEF;
+            sum += right.hashCode();
+        return sum;
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o && o instanceof BinaryThree)
+
+        if (o == null)
+            return false;
+        if (this == o)
             return true;
-        if (o instanceof BinaryThree) {
+        if (!(o instanceof BinaryThree))
+            return false;
+        else {
             BinaryThree three = (BinaryThree) o;
             if (three.value != this.value) {
                 return false;
@@ -113,7 +118,6 @@ public class BinaryThree {
                 out &= right.equals(three.right);
             return out;
         }
-        return false;
     }
 
     @Override
@@ -124,25 +128,12 @@ public class BinaryThree {
     }
 
     /***
-     * Возвращает строку, представляющую класс в виде json объекта.
-     */
-    public String toJSON() {
-        return "{" + toString() + "}";
-    }
-
-    /***
      * Соседи элемента
      *
      * @return [parent, left, right]
      */
     public BinaryThree[] friends(int value) throws Exception {
-        if (value == this.value)
-            return new BinaryThree[]{null, left, right};
-        if (value > this.value && this.right != null)
-            return right.friends(value, this);
-        if (value < this.value && this.left != null)
-            return left.friends(value, this);
-        throw new Exception("Node hasn't exist");
+        return friends(value, null);
     }
 
     //вспомогательное переопределение функции.

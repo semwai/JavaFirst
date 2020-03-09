@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3445c1-0fd5-4a84-8cc4-fb6467342f1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/sbpstu/semwai/javafirst/BinaryThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/sbpstu/semwai/javafirst/BinaryThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tests.java" afterDir="false" />
@@ -28,8 +28,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582576548324" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3dGame" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -46,26 +49,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.BaseTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFirst" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="BaseTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.BaseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaFirst" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="BaseTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests.DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaFirst" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,12 +59,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.EqualsTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFirst" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="EqualsTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.FriendTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFirst" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="FriendTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.hashTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaFirst" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="hashTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.EqualsTest1" />
+        <item itemvalue="JUnit.Tests.hashTest1" />
+        <item itemvalue="JUnit.Tests.FriendTest1" />
         <item itemvalue="JUnit.Tests.DeleteTest" />
-        <item itemvalue="JUnit.Tests.BaseTest2" />
-        <item itemvalue="JUnit.Tests.BaseTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -103,26 +117,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1582626674735" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1583001556905">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="761" y="355" key="FileChooserDialogImpl" timestamp="1583692633502">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="761" y="355" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583692633502" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1583756508690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583756508690" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556905" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1583001556904">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1583756508690">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583756508690" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556904" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1583001556904">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1583756508690">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583756508690" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556904" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1583001556905">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1583756508690">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583756508690" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583001556905" />
-    <state x="461" y="182" key="SettingsEditor" timestamp="1582999638629">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="461" y="175" key="SettingsEditor" timestamp="1583692687686">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="175" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583692687686" />
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582999638629" />
+    <state x="342" y="140" key="new project wizard" timestamp="1583157243602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583157243602" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
