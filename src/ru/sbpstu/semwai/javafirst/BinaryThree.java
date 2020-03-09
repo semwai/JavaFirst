@@ -83,8 +83,6 @@ public class BinaryThree {
 
     @Override
     public int hashCode() {
-        //числа 7, 3 и 5 выбраны из-за их простоты.
-        //конечная константа и исключающее или должны в достаточной степени "перемешать" биты.
         int sum = value * 31;
         if (left != null)
             sum += left.hashCode();
